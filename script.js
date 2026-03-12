@@ -6,7 +6,7 @@ type: "bar",
 
 data: {
 
-labels: ["HTML", "CSS", "JavaScript", "Teamwork", "Communication"],
+labels: ["HTML", "CSS","JavaScript", "Teamwork", "Communication"],
 
 datasets: [{
 
