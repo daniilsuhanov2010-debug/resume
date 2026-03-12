@@ -2,37 +2,37 @@ const ctx = document.getElementById("skillsChart");
 
 new Chart(ctx, {
 
-    type: "bar",
+type: "bar",
 
-    data: {
+data: {
 
-        labels: ["HTML", "CSS", "JavaScript", "Teamwork", "Communication"],
+labels: ["HTML", "CSS", "JavaScript", "Teamwork", "Communication"],
 
-        datasets: [{
+datasets: [{
 
-            label: "Skill Level",
+label: "Skill Level",
 
-            data: [70, 60, 50, 90, 85],
+data: [70, 60, 50, 90, 85],
 
-            borderWidth: 1
+borderWidth: 1
 
-        }]
+}]
 
-    },
+},
 
-    options: {
+options: {
 
-        scales: {
+scales: {
 
-            y: {
+y: {
 
-                beginAtZero: true,
-                max: 100
+beginAtZero: true,
+max: 100
 
-            }
+}
 
-        }
+}
 
-    }
+}
 
 });
